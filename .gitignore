@@ -1,0 +1,61 @@
+
+# =========================
+# React / Frontend
+# =========================
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# Python / Django Backend
+# =========================
+
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django Database
+db.sqlite3
+db.sqlite3-journal
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# System Files
+# =========================
+
+.DS_Store
+Thumbs.db
