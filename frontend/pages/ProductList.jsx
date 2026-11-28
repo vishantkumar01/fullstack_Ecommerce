@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Loading from "../components/Loder";
+import Loader from "../components/Loader";
 import ProductsCard from "../components/ProductsCard";
 
 const ProductList = () => {
@@ -36,7 +36,7 @@ const ProductList = () => {
       </h1>
 
       {Loder ? (
-        <Loading />
+        <Loader />
       ) : (
         <div className="flex flex-wrap gap-10">
           {Products.map((product) => (
